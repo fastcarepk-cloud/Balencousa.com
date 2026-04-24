@@ -6,7 +6,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { Star, Clock, MapPin, Heart, Share2, CheckCircle, MessageCircle, ChevronDown, ChevronUp, ArrowLeft, User, X, Edit3, Send, Eye, TrendingUp, Grid, List, CalendarPlus } from 'lucide-react'
-import parse from "html-react-parser"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -704,84 +703,79 @@ export default function ProductPageClient({
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 md:mb-8">Product Details</h2>
-              <div className="text-base md:text-lg text-gray-700 leading-relaxed space-y-4">
-                {typeof cleanProduct.longDescription === "string"
-                  ? parse(cleanProduct.longDescription, {
-                      replace: (domNode: any) => {
-                        if (!domNode.type || domNode.type === "text") return
-                        
-                        // Style img tags for responsive display
-                        if (domNode.type === "tag" && domNode.name === "img") {
-                          return (
-                            <img
-                              key={domNode.attribs.src}
-                              {...domNode.attribs}
-                              alt={domNode.attribs.alt || "Product image"}
-                              className="max-w-full h-auto rounded-lg my-4 shadow-sm"
-                              style={{ maxWidth: "100%" }}
-                            />
-                          )
-                        }
-                        
-                        // Style p tags
-                        if (domNode.type === "tag" && domNode.name === "p") {
-                          return <p className="mb-4 text-gray-700">{domNode.children}</p>
-                        }
-                        
-                        // Style heading tags
-                        if (domNode.type === "tag" && domNode.name === "h1") {
-                          return <h1 className="text-2xl font-bold mt-6 mb-3 text-gray-900">{domNode.children}</h1>
-                        }
-                        if (domNode.type === "tag" && domNode.name === "h2") {
-                          return <h2 className="text-xl font-bold mt-5 mb-2 text-gray-900">{domNode.children}</h2>
-                        }
-                        if (domNode.type === "tag" && domNode.name === "h3") {
-                          return <h3 className="text-lg font-bold mt-4 mb-2 text-gray-800">{domNode.children}</h3>
-                        }
-                        
-                        // Style list tags
-                        if (domNode.type === "tag" && domNode.name === "ul") {
-                          return <ul className="list-disc list-inside space-y-2 mb-4 pl-4">{domNode.children}</ul>
-                        }
-                        if (domNode.type === "tag" && domNode.name === "ol") {
-                          return <ol className="list-decimal list-inside space-y-2 mb-4 pl-4">{domNode.children}</ol>
-                        }
-                        if (domNode.type === "tag" && domNode.name === "li") {
-                          return <li className="text-gray-700">{domNode.children}</li>
-                        }
-                        
-                        // Style br tags
-                        if (domNode.type === "tag" && domNode.name === "br") {
-                          return <br />
-                        }
-                        
-                        // Style b/strong tags
-                        if (domNode.type === "tag" && (domNode.name === "b" || domNode.name === "strong")) {
-                          return <strong className="font-bold text-gray-900">{domNode.children}</strong>
-                        }
-                        
-                        // Style i/em tags
-                        if (domNode.type === "tag" && (domNode.name === "i" || domNode.name === "em")) {
-                          return <em className="italic text-gray-700">{domNode.children}</em>
-                        }
-                        
-                        // Style a tags
-                        if (domNode.type === "tag" && domNode.name === "a") {
-                          return (
-                            <a
-                              href={domNode.attribs.href}
-                              className="text-pink-600 hover:text-pink-700 underline"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              {domNode.children}
-                            </a>
-                          )
-                        }
-                      },
-                    })
-                  : cleanProduct.longDescription}
-              </div>
+              <div 
+                className="prose prose-gray max-w-none text-base md:text-lg text-gray-700 leading-relaxed"
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    <style>
+                      .product-details img {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 0.5rem;
+                        margin: 1rem 0;
+                        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+                      }
+                      .product-details p {
+                        margin-bottom: 1rem;
+                        color: rgb(55, 65, 81);
+                      }
+                      .product-details h1 {
+                        font-size: 1.875rem;
+                        font-weight: 700;
+                        margin: 1.5rem 0 0.75rem 0;
+                        color: rgb(17, 24, 39);
+                      }
+                      .product-details h2 {
+                        font-size: 1.25rem;
+                        font-weight: 700;
+                        margin: 1.25rem 0 0.5rem 0;
+                        color: rgb(17, 24, 39);
+                      }
+                      .product-details h3 {
+                        font-size: 1.125rem;
+                        font-weight: 700;
+                        margin: 1rem 0 0.5rem 0;
+                        color: rgb(31, 41, 55);
+                      }
+                      .product-details ul, .product-details ol {
+                        margin-bottom: 1rem;
+                        padding-left: 1.5rem;
+                      }
+                      .product-details li {
+                        margin-bottom: 0.5rem;
+                        color: rgb(55, 65, 81);
+                      }
+                      .product-details ul li {
+                        list-style-type: disc;
+                      }
+                      .product-details ol li {
+                        list-style-type: decimal;
+                      }
+                      .product-details strong, .product-details b {
+                        font-weight: 700;
+                        color: rgb(17, 24, 39);
+                      }
+                      .product-details em, .product-details i {
+                        font-style: italic;
+                        color: rgb(55, 65, 81);
+                      }
+                      .product-details a {
+                        color: rgb(236, 72, 153);
+                        text-decoration: underline;
+                      }
+                      .product-details a:hover {
+                        color: rgb(219, 39, 119);
+                      }
+                      .product-details br {
+                        display: block;
+                      }
+                    </style>
+                    <div class="product-details">
+                      ${cleanProduct.longDescription}
+                    </div>
+                  `,
+                }}
+              />
             </div>
           </div>
         </section>
