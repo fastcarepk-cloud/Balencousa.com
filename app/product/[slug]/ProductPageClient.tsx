@@ -502,16 +502,14 @@ export default function ProductPageClient({
                     className="w-full bg-pink-500 hover:bg-pink-600 text-white py-4 text-lg font-semibold rounded-xl"
                   >
                     <CalendarPlus className="w-5 h-5 mr-2" />
-                    Book Now
+                    Buy Now
                   </Button>
                   <Button
                     size="lg"
                     variant="outline"
-                    onClick={handleWhatsAppBooking}
-                    className="w-full border-green-500 text-green-600 hover:bg-green-50 py-4 text-lg font-semibold rounded-xl bg-transparent"
+                    className="w-full border-pink-500 text-pink-600 hover:bg-pink-50 py-4 text-lg font-semibold rounded-xl bg-transparent"
                   >
-                    <MessageCircle className="w-5 h-5 mr-2" />
-                    Book on WhatsApp
+                    Add to Cart
                   </Button>
                 </div>
               </div>
@@ -657,7 +655,7 @@ export default function ProductPageClient({
             <div className="flex items-center justify-between mb-6 md:mb-8">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 flex items-center">
                 <TrendingUp className="w-6 h-6 mr-2 text-pink-500" />
-                Related {category?.name || "Services"}
+                Related {category?.name || "Products"}
               </h2>
               <div className="flex items-center space-x-2">
                 <Button
@@ -701,7 +699,7 @@ export default function ProductPageClient({
             <div className="flex items-center justify-between mb-6 md:mb-8">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 flex items-center">
                 <Eye className="w-6 h-6 mr-2 text-purple-500" />
-                Most Viewed Services
+                Most Viewed Products
               </h2>
               <div className="flex items-center space-x-2">
                 <Button
@@ -884,16 +882,14 @@ export default function ProductPageClient({
             style={{ minHeight: "48px" }}
           >
             <CalendarPlus className="w-4 h-4 mr-2" />
-            Book Now
+            Buy Now
           </Button>
           <Button
             variant="outline"
-            onClick={handleWhatsAppBooking}
-            className="flex-1 border-green-500 text-green-600 hover:bg-green-50 py-3 font-semibold rounded-lg bg-transparent"
+            className="flex-1 border-pink-500 text-pink-600 hover:bg-pink-50 py-3 font-semibold rounded-lg bg-transparent"
             style={{ minHeight: "48px" }}
           >
-            <MessageCircle className="w-4 h-4 mr-2" />
-            WhatsApp
+            Add to Cart
           </Button>
         </div>
       </div>
