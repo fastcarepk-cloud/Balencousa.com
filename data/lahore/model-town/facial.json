@@ -1,0 +1,57 @@
+{
+  "title": "Luxury Facial Treatment in Model Town, Lahore",
+  "metaTitle": "Facial Treatment Model Town Lahore | Professional Beauty Services",
+  "metaDescription": "Rejuvenating facial treatments at your home in Model Town, Lahore. Deep cleansing, anti-aging, and hydrating facials by expert beauticians.",
+  "keywords": ["facial treatment", "Model Town", "Lahore", "skincare", "beauty services"],
+  "intro": "Transform your skin with our luxury facial treatments in Model Town, Lahore. Our expert beauticians provide personalized facial services using premium skincare products to give you glowing, healthy skin.",
+  "price": 2500,
+  "originalPrice": 3200,
+  "discount": 25,
+  "duration": "75 minutes",
+  "rating": 4.8,
+  "reviews": 189,
+  "city": "Lahore",
+  "area": "Model Town",
+  "service": "Facial Treatment",
+  "image": "/placeholder.svg?height=500&width=600",
+  "features": [
+    {
+      "title": "Customized Treatment",
+      "description": "Each facial is tailored to your specific skin type and concerns"
+    },
+    {
+      "title": "Premium Products",
+      "description": "We use high-end skincare products from trusted international brands"
+    },
+    {
+      "title": "Deep Cleansing",
+      "description": "Thorough cleansing removes impurities and unclogs pores effectively"
+    },
+    {
+      "title": "Anti-Aging Benefits",
+      "description": "Our treatments help reduce fine lines and promote youthful skin"
+    },
+    {
+      "title": "Relaxing Experience",
+      "description": "Enjoy a spa-like experience in the comfort of your home"
+    },
+    {
+      "title": "Instant Glow",
+      "description": "See immediate results with radiant, glowing skin after treatment"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which facial is best for my skin type?",
+      "a": "Our beautician will assess your skin and recommend the most suitable facial treatment based on your skin type and concerns."
+    },
+    {
+      "q": "How often should I get a facial?",
+      "a": "For optimal results, we recommend getting a facial every 4-6 weeks to maintain healthy, glowing skin."
+    },
+    {
+      "q": "Do you provide services in Model Town area?",
+      "a": "Yes, we cover all areas of Model Town, Lahore with our professional facial services."
+    }
+  ]
+}

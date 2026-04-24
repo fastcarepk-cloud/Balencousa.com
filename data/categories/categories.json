@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "id": "makeup",
+      "name": "Makeup",
+      "slug": "makeup",
+      "image": "/placeholder.svg?height=250&width=300&text=Makeup+Services",
+      "description": "Professional makeup services for all occasions. From everyday looks to bridal makeup, our expert artists create stunning looks at your doorstep.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "hair-treatment",
+      "name": "Hair Treatment Services",
+      "slug": "hair-treatment",
+      "image": "/placeholder.svg?height=250&width=300&text=Hair+Treatment+Services",
+      "description": "Professional hair treatment services including coloring, keratin, rebonding, and highlights. Transform your hair with our expert treatments.",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "waxing-services",
+      "name": "Waxing Services",
+      "slug": "waxing-services",
+      "image": "/placeholder.svg?height=250&width=300&text=Waxing+Services",
+      "description": "Professional waxing services using premium fruit and sugar wax for smooth, hair-free skin. Comfortable and hygienic treatments at home.",
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "massage-services",
+      "name": "Massage for Women",
+      "slug": "massage-services",
+      "image": "/placeholder.svg?height=250&width=300&text=Massage+for+Women",
+      "description": "Relaxing and therapeutic massage services for women. Professional massage therapy to relieve stress and rejuvenate your body at home.",
+      "featured": true,
+      "order": 4
+    },
+    {
+      "id": "mani-pedi",
+      "name": "Mani Pedi",
+      "slug": "mani-pedi",
+      "image": "/placeholder.svg?height=250&width=300&text=Mani+Pedi+Services",
+      "description": "Professional manicure and pedicure services for beautiful hands and feet. Complete nail care with premium products and expert techniques.",
+      "featured": true,
+      "order": 5
+    },
+    {
+      "id": "facial-services",
+      "name": "Facial",
+      "slug": "facial-services",
+      "image": "/placeholder.svg?height=250&width=300&text=Facial+Services",
+      "description": "Professional facial treatments for glowing, healthy skin. From basic cleansing to premium treatments, achieve radiant skin at home.",
+      "featured": true,
+      "order": 6
+    },
+    {
+      "id": "mehndi-services",
+      "name": "Mehndi",
+      "slug": "mehndi-services",
+      "image": "/placeholder.svg?height=250&width=300&text=Mehndi+Services",
+      "description": "Beautiful traditional and modern mehndi designs for all occasions. Expert artists create intricate patterns for hands and arms.",
+      "featured": true,
+      "order": 7
+    },
+    {
+      "id": "hair-styling-cut",
+      "name": "Hair Styling & Hair Cut",
+      "slug": "hair-styling-cut",
+      "image": "/placeholder.svg?height=250&width=300&text=Hair+Styling+and+Cut",
+      "description": "Professional hair cutting and styling services. From trendy cuts to elegant styling, get the perfect look for any occasion.",
+      "featured": true,
+      "order": 8
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Ayesha Khan",
+      "location": "Lahore",
+      "rating": 5,
+      "comment": "Amazing bridal makeup service! The artist was so professional and made me look absolutely stunning on my wedding day.",
+      "service": "Makeup",
+      "serviceId": "barat-makeup",
+      "image": "/images/testimonials/ayesha-khan.jpg",
+      "date": "2024-01-15",
+      "verified": true,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Fatima Ali",
+      "location": "Karachi",
+      "rating": 5,
+      "comment": "The mehndi design was absolutely beautiful! Intricate patterns and the color came out perfectly. Highly recommend!",
+      "service": "Mehndi",
+      "serviceId": "bridal-special-mehndi",
+      "image": "/images/testimonials/fatima-ali.jpg",
+      "date": "2024-01-12",
+      "verified": true,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Sana Ahmed",
+      "location": "Islamabad",
+      "rating": 5,
+      "comment": "Excellent facial service! My skin feels so fresh and glowing. The therapist was very gentle and professional.",
+      "service": "Facial",
+      "serviceId": "gold-facial",
+      "image": "/images/testimonials/sana-ahmed.jpg",
+      "date": "2024-01-10",
+      "verified": true,
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Zara Malik",
+      "location": "Faisalabad",
+      "rating": 5,
+      "comment": "Perfect hair treatment! My hair feels so soft and manageable after the keratin treatment. Worth every penny!",
+      "service": "Hair Treatment Services",
+      "serviceId": "shoulder-keratin-treatment",
+      "image": "/images/testimonials/zara-malik.jpg",
+      "date": "2024-01-08",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": 5,
+      "name": "Hira Shahid",
+      "location": "Rawalpindi",
+      "rating": 5,
+      "comment": "Great waxing service! Very hygienic and professional. The fruit wax was gentle on my sensitive skin.",
+      "service": "Waxing Services",
+      "serviceId": "full-body-fruit-wax",
+      "image": "/images/testimonials/hira-shahid.jpg",
+      "date": "2024-01-05",
+      "verified": true,
+      "featured": false
+    }
+  ]
+}

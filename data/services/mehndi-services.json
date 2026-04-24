@@ -1,0 +1,56 @@
+{
+  "categoryId": "mehndi-services",
+  "services": [
+    {
+      "id": "bridal-special-mehndi",
+      "name": "Bridal Special Mehndi",
+      "slug": "bridal-special-mehndi",
+      "image": "/images/services/bridal-special-mehndi.jpg",
+      "shortDescription": "Elaborate bridal mehndi design",
+      "longDescription": "Intricate and elaborate bridal mehndi designs for your special day. Includes detailed patterns on hands and feet with traditional motifs.",
+      "price": 4949,
+      "originalPrice": 6000,
+      "discount": 18,
+      "duration": "180 min",
+      "rating": 5.0,
+      "reviewCount": 89,
+      "featured": true,
+      "tags": ["bridal", "elaborate", "traditional", "hands-feet"],
+      "availability": "available"
+    },
+    {
+      "id": "mehndi-hand-two-sides",
+      "name": "Mehndi On Hand Two Sides",
+      "slug": "mehndi-hand-two-sides",
+      "image": "/images/services/mehndi-hand-two-sides.jpg",
+      "shortDescription": "Mehndi design on both hands",
+      "longDescription": "Beautiful mehndi designs applied on both sides of hands with intricate patterns and traditional motifs.",
+      "price": 1125,
+      "originalPrice": 1350,
+      "discount": 17,
+      "duration": "60 min",
+      "rating": 4.8,
+      "reviewCount": 234,
+      "featured": false,
+      "tags": ["hands", "both-sides", "intricate", "traditional"],
+      "availability": "available"
+    },
+    {
+      "id": "mehndi-full-arms-two-sides",
+      "name": "Mehndi On Full Arms Two Sides",
+      "slug": "mehndi-full-arms-two-sides",
+      "image": "/images/services/mehndi-full-arms-two-sides.jpg",
+      "shortDescription": "Full arms mehndi on both sides",
+      "longDescription": "Complete mehndi design on both full arms with intricate patterns covering from hands to elbows on both sides.",
+      "price": 1947,
+      "originalPrice": 2350,
+      "discount": 17,
+      "duration": "120 min",
+      "rating": 4.9,
+      "reviewCount": 145,
+      "featured": true,
+      "tags": ["full-arms", "both-sides", "intricate", "complete"],
+      "availability": "available"
+    }
+  ]
+}

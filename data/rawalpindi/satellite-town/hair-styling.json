@@ -1,0 +1,57 @@
+{
+  "title": "Professional Hair Styling in Satellite Town, Rawalpindi",
+  "metaTitle": "Hair Styling Satellite Town Rawalpindi | Expert Hair Services",
+  "metaDescription": "Professional hair styling services at your home in Satellite Town, Rawalpindi. Expert stylists for cuts, colors, and treatments.",
+  "keywords": ["hair styling", "Satellite Town", "Rawalpindi", "hair cut", "hair color"],
+  "intro": "Transform your look with our professional hair styling services in Satellite Town, Rawalpindi. Our expert stylists provide cutting-edge cuts, colors, and treatments using premium hair products.",
+  "price": 3200,
+  "originalPrice": 4000,
+  "discount": 20,
+  "duration": "2 hours",
+  "rating": 4.8,
+  "reviews": 134,
+  "city": "Rawalpindi",
+  "area": "Satellite Town",
+  "service": "Hair Styling",
+  "image": "/placeholder.svg?height=500&width=600",
+  "features": [
+    {
+      "title": "Expert Stylists",
+      "description": "Certified hair stylists with years of experience in latest trends"
+    },
+    {
+      "title": "Premium Products",
+      "description": "High-quality hair products from renowned international brands"
+    },
+    {
+      "title": "Latest Techniques",
+      "description": "Modern cutting and coloring techniques for contemporary styles"
+    },
+    {
+      "title": "Personalized Consultation",
+      "description": "Detailed consultation to understand your style preferences"
+    },
+    {
+      "title": "Hair Health Focus",
+      "description": "Treatments that enhance hair health while styling"
+    },
+    {
+      "title": "Aftercare Advice",
+      "description": "Professional tips and products for maintaining your new style"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you provide hair coloring services?",
+      "a": "Yes, we offer complete hair coloring services including highlights, lowlights, and full color treatments."
+    },
+    {
+      "q": "How long does hair styling take?",
+      "a": "Depending on the service, hair styling can take 1-3 hours. We'll provide an estimate during consultation."
+    },
+    {
+      "q": "Do you serve Satellite Town area?",
+      "a": "Yes, we provide professional hair styling services throughout Satellite Town, Rawalpindi."
+    }
+  ]
+}

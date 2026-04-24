@@ -1,0 +1,34 @@
+{
+  "title": "Gold Facial in DHA Phase 1, Islamabad (Residence 21)",
+  "metaTitle": "Gold Facial DHA Phase 1 Islamabad | GlamUp at Residence 21",
+  "metaDescription": "Premium gold facial at Residence 21 in DHA Phase 1, Islamabad for radiant, hydrated skin.",
+  "keywords": ["gold facial Islamabad", "DHA Phase 1 facial", "Residence 21 skincare"],
+  "intro": "A balanced, brightening facial ritual using premium skincare to reveal a healthy glow—performed at Residence 21.",
+  "price": 3499,
+  "originalPrice": 4500,
+  "discount": 22,
+  "duration": "60 minutes",
+  "rating": 4.8,
+  "reviews": 156,
+  "city": "Islamabad",
+  "area": "DHA Phase 1",
+  "service": "Gold Facial",
+  "image": "/images/gold-facial-islamabad-dha-phase1-residence-21.webp",
+  "imageAlt": "Gold facial service at Residence 21 DHA Phase 1 Islamabad",
+  "imageTitle": "Gold Facial - Residence 21, DHA Phase 1 Islamabad",
+  "imageCaption": "Hydrating steps with a luminous finish.",
+  "productCategorySlug": "facial-services",
+  "features": [
+    { "title": "Cleanse & Exfoliate", "description": "Preps skin for active ingredients." },
+    { "title": "Face Massage", "description": "Boosts blood flow and relaxation." },
+    { "title": "Gold Mask", "description": "Targets brightness and moisture." },
+    { "title": "Serum & Seal", "description": "Locks in benefits for lasting glow." },
+    { "title": "Hygiene First", "description": "Sterilized tools and clean handling." },
+    { "title": "Mobile Convenience", "description": "We set up at Residence 21." }
+  ],
+  "faq": [
+    { "q": "Makeup after facial?", "a": "Better to wait 24 hours for best results." },
+    { "q": "Sun exposure?", "a": "Use SPF; avoid harsh sun immediately after." },
+    { "q": "Breakout prone?", "a": "We tailor products to avoid congestion." }
+  ]
+}

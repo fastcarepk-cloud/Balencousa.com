@@ -1,0 +1,56 @@
+{
+  "categoryId": "facial-services",
+  "services": [
+    {
+      "id": "gold-facial",
+      "name": "Gold Facial",
+      "slug": "gold-facial",
+      "image": "/images/services/gold-facial.jpg",
+      "shortDescription": "Luxurious gold facial treatment",
+      "longDescription": "Premium gold facial treatment for anti-aging and skin brightening. Includes gold particles for a radiant, youthful glow.",
+      "price": 2352,
+      "originalPrice": 2800,
+      "discount": 16,
+      "duration": "75 min",
+      "rating": 4.9,
+      "reviewCount": 145,
+      "featured": true,
+      "tags": ["gold", "anti-aging", "brightening", "luxury"],
+      "availability": "available"
+    },
+    {
+      "id": "derma-whitening-facial",
+      "name": "Derma Whitening Facial",
+      "slug": "derma-whitening-facial",
+      "image": "/images/services/derma-whitening-facial.jpg",
+      "shortDescription": "Professional skin whitening facial",
+      "longDescription": "Advanced derma whitening facial to brighten skin tone, reduce dark spots, and achieve an even, radiant complexion.",
+      "price": 2647,
+      "originalPrice": 3200,
+      "discount": 17,
+      "duration": "80 min",
+      "rating": 4.8,
+      "reviewCount": 167,
+      "featured": true,
+      "tags": ["whitening", "brightening", "dark-spots", "even-tone"],
+      "availability": "available"
+    },
+    {
+      "id": "hydra-facial",
+      "name": "Hydra Facial",
+      "slug": "hydra-facial",
+      "image": "/images/services/hydra-facial.jpg",
+      "shortDescription": "Intensive hydrating facial treatment",
+      "longDescription": "Advanced hydra facial treatment for deep hydration, cleansing, and rejuvenation. Perfect for dry and dehydrated skin.",
+      "price": 3125,
+      "originalPrice": 3750,
+      "discount": 17,
+      "duration": "85 min",
+      "rating": 4.8,
+      "reviewCount": 134,
+      "featured": true,
+      "tags": ["hydrating", "deep-cleansing", "rejuvenation", "dry-skin"],
+      "availability": "available"
+    }
+  ]
+}

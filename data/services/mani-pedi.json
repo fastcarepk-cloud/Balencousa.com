@@ -1,0 +1,73 @@
+{
+  "categoryId": "mani-pedi",
+  "services": [
+    {
+      "id": "mani-pedi-basic",
+      "name": "Mani Pedi",
+      "slug": "mani-pedi-basic",
+      "image": "/images/services/mani-pedi-basic.jpg",
+      "shortDescription": "Complete manicure and pedicure service",
+      "longDescription": "Professional manicure and pedicure service including nail shaping, cuticle care, exfoliation, and moisturizing for beautiful hands and feet.",
+      "price": 2106,
+      "originalPrice": 2550,
+      "discount": 17,
+      "duration": "90 min",
+      "rating": 4.8,
+      "reviewCount": 267,
+      "featured": true,
+      "tags": ["manicure", "pedicure", "nail-care", "complete"],
+      "availability": "available"
+    },
+    {
+      "id": "mani-pedi-paraffin",
+      "name": "Mani Pedi With Paraffin Wax – Signature",
+      "slug": "mani-pedi-paraffin",
+      "image": "/images/services/mani-pedi-paraffin.jpg",
+      "shortDescription": "Luxury mani pedi with paraffin wax treatment",
+      "longDescription": "Premium manicure and pedicure service with paraffin wax treatment for extra moisturizing and softening of hands and feet.",
+      "price": 2499,
+      "originalPrice": 3000,
+      "discount": 17,
+      "duration": "105 min",
+      "rating": 4.9,
+      "reviewCount": 198,
+      "featured": true,
+      "tags": ["luxury", "paraffin-wax", "moisturizing", "premium"],
+      "availability": "available"
+    },
+    {
+      "id": "manicure-only",
+      "name": "Manicure",
+      "slug": "manicure-only",
+      "image": "/images/services/manicure-only.jpg",
+      "shortDescription": "Professional manicure service",
+      "longDescription": "Complete manicure service including nail shaping, cuticle care, hand massage, and nail polish application for beautiful hands.",
+      "price": 1184,
+      "originalPrice": 1400,
+      "discount": 15,
+      "duration": "45 min",
+      "rating": 4.6,
+      "reviewCount": 234,
+      "featured": false,
+      "tags": ["manicure", "nail-shaping", "hand-massage", "polish"],
+      "availability": "available"
+    },
+    {
+      "id": "pedicure-only",
+      "name": "Pedicure",
+      "slug": "pedicure-only",
+      "image": "/images/services/pedicure-only.jpg",
+      "shortDescription": "Professional pedicure service",
+      "longDescription": "Complete pedicure service including foot soak, nail care, exfoliation, massage, and polish application for beautiful feet.",
+      "price": 1184,
+      "originalPrice": 1400,
+      "discount": 15,
+      "duration": "50 min",
+      "rating": 4.7,
+      "reviewCount": 189,
+      "featured": false,
+      "tags": ["pedicure", "foot-care", "exfoliation", "massage"],
+      "availability": "available"
+    }
+  ]
+}

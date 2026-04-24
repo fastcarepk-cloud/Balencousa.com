@@ -1,0 +1,56 @@
+{
+  "categoryId": "hair-styling-cut",
+  "services": [
+    {
+      "id": "hair-cut-blow-dry",
+      "name": "Hair Cut with Blow Dry",
+      "slug": "hair-cut-blow-dry",
+      "image": "/placeholder.svg?height=200&width=300&text=Hair+Cut+with+Blow+Dry",
+      "shortDescription": "Professional haircut with blow dry styling",
+      "longDescription": "Complete hair cutting service with professional blow dry styling to give you a fresh, polished look that's ready for any occasion.",
+      "price": 1980,
+      "originalPrice": 2400,
+      "discount": 18,
+      "duration": "75 min",
+      "rating": 4.8,
+      "reviewCount": 189,
+      "featured": true,
+      "tags": ["haircut", "blow-dry", "styling", "polished"],
+      "availability": "available"
+    },
+    {
+      "id": "hair-styling-only",
+      "name": "Hair Styling",
+      "slug": "hair-styling-only",
+      "image": "/placeholder.svg?height=200&width=300&text=Hair+Styling+Service",
+      "shortDescription": "Professional hair styling service",
+      "longDescription": "Expert hair styling service to create beautiful hairstyles for parties, events, or everyday elegance without cutting.",
+      "price": 1782,
+      "originalPrice": 2150,
+      "discount": 17,
+      "duration": "60 min",
+      "rating": 4.7,
+      "reviewCount": 156,
+      "featured": false,
+      "tags": ["styling", "parties", "events", "elegant"],
+      "availability": "available"
+    },
+    {
+      "id": "child-hair-cut-styling",
+      "name": "Child Hair Cut with Hairstyling",
+      "slug": "child-hair-cut-styling",
+      "image": "/placeholder.svg?height=200&width=300&text=Child+Hair+Cut+and+Styling",
+      "shortDescription": "Kids haircut with styling service",
+      "longDescription": "Gentle and fun haircut service for children with styling, ensuring a comfortable experience and adorable results.",
+      "price": 1620,
+      "originalPrice": 1950,
+      "discount": 17,
+      "duration": "45 min",
+      "rating": 4.6,
+      "reviewCount": 134,
+      "featured": false,
+      "tags": ["kids", "children", "gentle", "fun"],
+      "availability": "available"
+    }
+  ]
+}

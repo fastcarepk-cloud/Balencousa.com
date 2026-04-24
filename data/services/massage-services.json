@@ -1,0 +1,39 @@
+{
+  "categoryId": "massage-services",
+  "services": [
+    {
+      "id": "full-body-massage-30min",
+      "name": "Full Body Massage – For Half Hour",
+      "slug": "full-body-massage-30min",
+      "image": "/images/services/full-body-massage-30min.jpg",
+      "shortDescription": "30-minute full body relaxing massage",
+      "longDescription": "Quick yet effective 30-minute full body massage to relieve tension and stress. Perfect for busy schedules while providing complete relaxation.",
+      "price": 1347,
+      "originalPrice": 1600,
+      "discount": 16,
+      "duration": "30 min",
+      "rating": 4.7,
+      "reviewCount": 234,
+      "featured": true,
+      "tags": ["full-body", "relaxing", "stress-relief", "quick"],
+      "availability": "available"
+    },
+    {
+      "id": "full-body-massage-60min",
+      "name": "Full Body Massage – For 1 Hour",
+      "slug": "full-body-massage-60min",
+      "image": "/images/services/full-body-massage-60min.jpg",
+      "shortDescription": "60-minute comprehensive full body massage",
+      "longDescription": "Complete one-hour full body massage for deep relaxation and stress relief. Includes therapeutic techniques for muscle tension and overall wellness.",
+      "price": 2082,
+      "originalPrice": 2500,
+      "discount": 17,
+      "duration": "60 min",
+      "rating": 4.9,
+      "reviewCount": 189,
+      "featured": true,
+      "tags": ["full-body", "therapeutic", "deep-relaxation", "wellness"],
+      "availability": "available"
+    }
+  ]
+}
