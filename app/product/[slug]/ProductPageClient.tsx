@@ -444,8 +444,13 @@ export default function ProductPageClient({
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 md:mb-4 leading-tight">
                   {cleanProduct.name}
                 </h1>
-                <div className="text-base md:text-xl text-gray-600 leading-relaxed">{cleanProduct.longDescription}</div>
               </div>
+
+              {cleanProduct.shortDescription && (
+                <div className="text-base md:text-lg text-gray-600 leading-relaxed">
+                  {cleanProduct.shortDescription}
+                </div>
+              )}
 
               <div className="flex items-center space-x-4">
                 <div className="flex items-center space-x-1">
@@ -687,6 +692,22 @@ export default function ProductPageClient({
               {cleanRelatedProducts.map((service) => (
                 <ProductCard key={service.id} service={service} viewMode={relatedViewMode} />
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Long Description Section */}
+      {cleanProduct.longDescription && (
+        <section className="py-8 md:py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 md:mb-8">Product Details</h2>
+              <div className="prose prose-gray max-w-none">
+                <div className="text-base md:text-lg text-gray-700 leading-relaxed whitespace-pre-wrap">
+                  {cleanProduct.longDescription}
+                </div>
+              </div>
             </div>
           </div>
         </section>
