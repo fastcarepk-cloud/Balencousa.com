@@ -1,8 +1,8 @@
 import axios from "axios"
 
-const BASE_URL = process.env.WC_BASE_URL || "https://store.glamup.pk/wp-json/wc/v3"
-const CONSUMER_KEY = process.env.WC_CONSUMER_KEY || "ck_ee6caedb32b454b2ab72b99b7cb6e99efed9af4a"
-const CONSUMER_SECRET = process.env.WC_CONSUMER_SECRET || "cs_753e19303eb3fcae13e7d5c88d9b38230ec0a677"
+const BASE_URL = process.env.WC_BASE_URL || "https://balencousa.com/wp-json/wc/v3"
+const CONSUMER_KEY = process.env.WC_CONSUMER_KEY || "ck_cb4f71b4b58874783557d1966e5f375253210d6e"
+const CONSUMER_SECRET = process.env.WC_CONSUMER_SECRET || "cs_c2dc7e9802e8f9af3cdbeecea4e66fcc804cf603"
 
 // Enhanced security and validation utilities
 function sanitizeInput(input: string): string {
