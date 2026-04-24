@@ -630,6 +630,26 @@ export async function validateCheckoutProduct(
 }
 
 // Enhanced HTML stripping utility function
+// Sanitize HTML to prevent XSS while preserving structure
+function sanitizeHtml(html: string): string {
+  if (!html || typeof html !== "string") return ""
+
+  // Remove script tags and their content
+  let sanitized = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
+
+  // Remove event handlers and dangerous attributes
+  sanitized = sanitized.replace(/\s*on\w+\s*=\s*["'][^"']*["']/gi, "")
+  sanitized = sanitized.replace(/\s*on\w+\s*=\s*[^\s>]*/gi, "")
+
+  // Remove style attributes to prevent CSS injection (but allow some styling via classes)
+  sanitized = sanitized.replace(/\s*style\s*=\s*["'][^"']*["']/gi, "")
+
+  // Remove javascript: URLs
+  sanitized = sanitized.replace(/href\s*=\s*["']javascript:[^"']*["']/gi, 'href="#"')
+
+  return sanitized
+}
+
 function stripHtmlTags(html: string): string {
   if (typeof html !== "string" || !html) return ""
 
@@ -712,7 +732,7 @@ export function transformWooCommerceProduct(product: WooCommerceProduct) {
     name: stripHtmlTags(product.name),
     slug: product.slug,
     shortDescription: stripHtmlTags(product.short_description),
-    longDescription: stripHtmlTags(product.description),
+    longDescription: sanitizeHtml(product.description), // Keep HTML formatting for long description
     price: price,
     originalPrice: regularPrice,
     discount: product.on_sale && regularPrice > price ? Math.round(((regularPrice - price) / regularPrice) * 100) : 0,
